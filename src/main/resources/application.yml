@@ -1,0 +1,16 @@
+server:
+  port: 8091
+  error:
+    include-message: always
+    include-binding-errors: always
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://zemoga-test-db.crhpedy9xxto.us-east-1.rds.amazonaws.com:3306/zemoga_test_db?useSSL=false
+    username: zemoga_test_db
+    password: Zem0ga.101
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+
