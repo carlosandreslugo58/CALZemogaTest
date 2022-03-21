@@ -3,6 +3,7 @@ package cal.zemoga.CALZemogaTest.services;
 import cal.zemoga.CALZemogaTest.entity.Portfolio;
 import cal.zemoga.CALZemogaTest.repository.RepositoryPortfolio;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 
